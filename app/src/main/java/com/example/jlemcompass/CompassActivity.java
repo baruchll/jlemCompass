@@ -58,7 +58,7 @@ public class CompassActivity extends AppCompatActivity {
 
         setupCompass();
     }
-
+//need to finish this screen too
     private void setUserChanges(Intent intent) {
     }
 }
