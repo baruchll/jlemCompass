@@ -19,4 +19,7 @@
     <string name="dialog_message_sensor_not_exist" translatable="false">Your device doesn\'t have the required sensors</string>
     <string name="dialog_title" translatable="false">Alert</string>
     <string name="footer_image">Footer Image</string>
+    <string name="title_location_permission" >allow us to steal ur location</string>
+    <string name="text_location_permission"></string>
+    <string name="ok" />
 </resources>
