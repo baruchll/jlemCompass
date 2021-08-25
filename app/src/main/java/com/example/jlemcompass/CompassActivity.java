@@ -265,6 +265,7 @@ public class CompassActivity extends AppCompatActivity {
             @Override
             public void onNewAzimuth(float azimuth) {
                 // adjustArrow(azimuth);
+                tvAngle.setText(""+azimuth);
                 adjustGambarDial(azimuth);
                 adjustArrowjlem(azimuth);
             }
