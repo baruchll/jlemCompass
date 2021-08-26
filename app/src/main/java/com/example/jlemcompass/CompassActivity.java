@@ -192,7 +192,7 @@ public class CompassActivity extends AppCompatActivity {
                             intent.getExtras().containsKey(Constants.TOOLBAR_BG_COLOR)) ?
                             Color.parseColor(intent.getExtras().getString(Constants.TOOLBAR_BG_COLOR)) :
                             Color.parseColor("#" + Integer.toHexString(
-                                    ContextCompat.getColor(this, R.color.app_red))));
+                                    ContextCompat.getColor(this, R.color.blue))));
 
 
 
@@ -202,7 +202,7 @@ public class CompassActivity extends AppCompatActivity {
                             intent.getExtras().containsKey(Constants.COMPASS_BG_COLOR)) ?
                             Color.parseColor(intent.getExtras().getString(Constants.COMPASS_BG_COLOR)) :
                             Color.parseColor("#" + Integer.toHexString(
-                                    ContextCompat.getColor(this, R.color.app_red))));
+                                    ContextCompat.getColor(this, R.color.blue))));
 
             // jlem Degrees Text Color
             ((TextView) findViewById(R.id.angle)).setTextColor(
@@ -257,7 +257,6 @@ public class CompassActivity extends AppCompatActivity {
                 fetch_GPS();
             }
         }
-
 
         compass = new Compass(this);
         Compass.CompassListener cl = new Compass.CompassListener() {
